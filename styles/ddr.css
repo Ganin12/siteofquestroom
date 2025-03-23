@@ -1,0 +1,843 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ *, *::before, *::after {
+    box-sizing: inherit;
+ }
+ body {
+   margin: 0;
+}
+
+@media (min-width: 1600px) { /* Для мобильных */
+   body {
+      margin: 0;
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      background-color: #2E2E2E;
+   }
+}
+
+ .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: #2E2E2E;
+ }
+ .header {
+    background-image: url(/img/1bloc.jpg);
+    background-size: 100% 100%;
+    min-width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+    font-family: 'Tilda Sans VF', sans-serif;
+    color: #fff;
+ }
+ .header_title {
+    padding-top: 120px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 103%;
+    min-width: 1200px;
+    margin-bottom: 0px
+ }
+ .header_text {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px
+ }
+ .header_button {
+    min-width: 370;
+    min-height: 94;
+ }
+ 
+ /* ауапп */
+ 
+ .element-styles {
+    display: inline-block;
+    width: 1440px;
+    background: #2e2e2e;
+ }
+ 
+ .center-aligned-content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 1440px;
+    height: 101px;
+ }
+ 
+ .header-nav-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+ }
+ 
+ .quest-info-heading {
+    display: block;
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font: 300 30px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .quest-image-styles {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 264px;
+    max-width: initial;
+    height: 51px;
+    border: none;
+    object-fit: cover;
+ }
+ 
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+    background: #2e2e2e;
+ }
+ 
+ .performance-showcase-container {
+    box-sizing: border-box;
+    min-width: 1440px;
+    padding-top: 453px;
+    padding-right: 48px;
+    padding-left: 90px;
+    background-image: url(/img/ddr1.jpg);
+    background-size: 1520px;
+    border: none;
+ }
+ 
+
+ .action-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ 
+ .quest-performance-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 64px Tilda Sans VF;
+    color: #ffffff;
+ }
+ 
+ .action-title-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-left: 36px;
+    font: 300 45px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .big-white-heading {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    font: 700 100px Tilda Sans VF;
+    color: white;
+ }
+ 
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+ }
+ 
+ .dark-themed-flex-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding-top: 30px;
+    padding-bottom: 29.5px;
+    background: #2e2e2e;
+ }
+ 
+ .game-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 28px;
+    align-items: stretch;
+    align-self: center;
+    justify-content: space-between;
+    min-width: 1340px;
+    height: 100px;
+ }
+ 
+ .player-count-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 59px;
+    padding-left: 58px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .player-count-label {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 300 15px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .player-count-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    font: 900 40px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .game-time-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 34px;
+    padding-left: 33px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .price-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 9px;
+    padding-left: 9px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .complexity-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 4px;
+    padding-right: 11px;
+    padding-left: 12px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .complexity-container2 {
+    flex: 0 0 auto;
+    margin-top: 14px;
+ }
+ 
+ .image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 177px;
+    max-width: initial;
+    height: 38px;
+ }
+ 
+ .complexity-container3 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 4px;
+    padding-right: 50px;
+    padding-left: 49px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .complexity-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 14px;
+ }
+ 
+ .box-image {
+    box-sizing: border-box;
+    display: block;
+    width: 51px;
+    max-width: initial;
+    height: auto;
+ }
+ 
+ .image-with-margin {
+    box-sizing: border-box;
+    display: block;
+    width: 43px;
+    max-width: initial;
+    height: 38px;
+    margin-left: 15px;
+ }
+ 
+ .age-restriction-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 200px;
+    padding-right: 67px;
+    padding-left: 67px;
+    border: 1.5px solid white;
+    border-radius: 25px;
+ }
+ 
+ .age-label {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    font: 300 15px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .age-restriction-badge {
+    flex: 0 0 auto;
+    padding: 0;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin: 0;
+    margin-top: 4px;
+    font: 900 40px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .immersive-content-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+ 
+ }
+ 
+ .story-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ 
+ .content-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    max-width: 1440px;
+    padding-right: 49px;
+    padding-left: 49px;
+ }
+ 
+ .neon-title {
+    padding: 0;
+    margin: 0;
+    font: 600 25px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .narrative-text-style {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 300 24px/29px Tilda Sans VF;
+    color: white;
+    text-align: left;
+ }
+ 
+ .title-text-bold {
+    font: 600 24px/29px Tilda Sans VF;
+    text-align: left;
+ }
+ 
+ .suspenseful-narrative {
+    flex: 0 0 auto;
+    margin-top: 18.5px;
+ }
+ 
+ .text-container {
+    box-sizing: border-box;
+    display: block;
+    width: 1341px;
+    max-width: initial;
+    height: 1.5px;
+ }
+ 
+ .reservation-details-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 16.5px;
+ }
+ 
+ .golden-heading {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    max-width: 1342px;
+    padding: 0;
+    margin: 0;
+    font: 700 30px/36px Tilda Sans VF;
+    color: #fff6c1;
+    text-align: center;
+ }
+ 
+ .info-box {
+    flex: 0 0 auto;
+    margin-top: 15px;
+ }
+ 
+ /* Услуги */
+ 
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+ }
+ 
+ .immersive-content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    background: #2e2e2e;
+ }
+ 
+ .standout-heading {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 64px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .immersive-content-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+ }
+ 
+ .genre-mix-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 260px;
+    height: 160px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border: 2px solid white;
+    border-radius: 25px;
+ }
+ 
+ .immersive-text-block {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 30px/36px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .night-club-decorations {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 260px;
+    height: 160px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    border: 2px solid white;
+    border-radius: 25px;
+ }
+ 
+ .flex-container-with-content {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1040px;
+ }
+ 
+ .card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 320px;
+    height: 365px;
+    padding: 10px 10px 16px 8px;
+    border: 2px solid white;
+    border-radius: 25px;
+ }
+ 
+ .actor-greeting-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 339px;
+ }
+ 
+ .hero-title {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    font: 700 36px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .actor-greeting-price {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 182px;
+    padding: 0;
+    margin: 0;
+    font: 400 30px/36px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .standout-heading1 {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 900 48px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .pricing-card1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 320px;
+    height: 365px;
+    padding: 10px 13px 16px 12.5px;
+    border: 2px solid white;
+    border-radius: 25px;
+ }
+ 
+ .heading-text-block {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 700 36px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .rest-zone-description {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 143px;
+    padding: 0;
+    margin: 0;
+    font: 400 30px/36px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .rest-area-price-text {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 900 48px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .video-recording-options-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 320px;
+    height: 365px;
+    padding: 14px 12px 16px;
+    border: 2px solid white;
+    border-radius: 25px;
+ }
+ 
+ .video-pricing-section {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 335px;
+ }
+ 
+ .video-title-heading {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    font: 700 36px/43px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .pricing-card2 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 260px;
+    height: 86px;
+    padding-bottom: 4.75px;
+ }
+ 
+ .pricing-card {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+ }
+ 
+ .price-tag-heading {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 400 30px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .price-tag-bold-center-aligned {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 900 48px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ /* Нижняя шапка*/
+ 
+ 
+ .dark-themed-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: flex-start;
+    background: #2e2e2e;
+ }
+ 
+ .horizontal-flex-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 81.57%;
+ }
+ 
+ .horror-show-copyright {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 600 30px/22.5px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .vertical-centered-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 628px;
+    height: 51px;
+    margin-left: 24px;
+ }
+ 
+ .image-container-with-border {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 264px;
+    max-width: initial;
+    height: 51px;
+    border: none;
+    object-fit: cover;
+ }
+ 
+ .image-container-icon {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    object-fit: cover;
+ }
+ 
+ .image-container {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: 628px;
+    max-width: initial;
+    height: 50px;
+ }
+ 
+ .contact-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 18.43%;
+ }
+ 
+ .vibrant-text {
+    padding: 0;
+    margin: 0;
+    font: 600 30px/22.5px Tilda Sans VF;
+    color: white;
+ }
+
+ .label {
+   display: inline;
+   padding: .2em .6em .3em;
+   font-size: 75%;
+   font-weight: 700;
+   line-height: 1;
+   color: #fff;
+   background-color: var(--color);
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: baseline;
+   border-radius: .25em;
+}
+
+.price-legend-1 {
+   display: inline-block;
+   color: white;
+   font: 100 24px/29px Tilda Sans VF;
+   background-color: var(--color);
+   font-weight: 500;
+   padding-top: 0.5em;
+   margin-right: 3px;
+   margin-bottom: 0px;
+}
+
+.price-legend {
+   display: inline;
+   color: white;
+   font: 100 20px/20px Tilda Sans VF;
+   background-color: var(--color);
+   font-weight: 500;
+   padding-top: 0.5em;
+   margin-right: 3px;
+   margin-bottom: 0px;
+}
+[data-price="1-of-5"] {
+   --color: #1980B6;
+}
+
+[data-price="2-of-5"] {
+   --color: #5cb85c;
+}
+
+[data-price="3-of-5"] {
+   --color: #f0ad4e;
+}
+
+[data-price="4-of-5"] {
+   --color: #d9534f;
+}
+
+[data-price="5-of-5"] {
+   --color: #aa0ba3;
+}
+ 
+ .container-bron {
+    height: 500px;
+ }

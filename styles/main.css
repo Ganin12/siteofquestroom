@@ -1,0 +1,1313 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+   margin: 0;
+}
+
+@media (min-width: 1600px) { /* Для мобильных */
+   body {
+      margin: 0;
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      vertical-align: middle;
+      background-color: #2E2E2E;
+   }
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    background-color: #2E2E2E;
+}
+.header {
+    background-image: url(/img/1bloc.jpg);
+    background-size: 100% 100%;
+    min-width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+    font-family: 'Tilda Sans VF', sans-serif;
+    color: #fff;
+}
+.header_title {
+    padding-top: 120px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 103%;
+    min-width: 1200px;
+    margin-bottom: 0px
+}
+.header_text {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px
+}
+.header_button {
+    min-width: 370;
+    min-height: 94;
+}
+
+/* ауапп */
+
+.element-styles {
+    display: inline-block;
+    width: 1440px;
+    background: #2e2e2e;
+ }
+ 
+ .center-aligned-content-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 1440px;
+    height: 101px;
+ }
+ 
+ .header-nav-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1340px;
+ }
+ 
+ .quest-info-heading {
+    display: block;
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font: 300 30px Tilda Sans VF;
+    color: white;
+ }
+
+ .quest-image-styles {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 264px;
+    max-width: initial;
+    height: 51px;
+    border: none;
+    object-fit: cover;
+ }
+ /* 1 блок */
+ .quest-info-global {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1440px;
+    height: 699px;
+    padding: 120px 137px;
+ }
+ 
+ .quest-info-global1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 89px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1165px;
+ }
+ 
+ .quest-info-container2 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: flex-start;
+ }
+ 
+ .immersive-quest-heading {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    padding-right: 270px;
+    margin: 0;
+    font: 800 100px/100px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .adventure-emotion-text {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 300 30px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .quest-selection-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 1165px;
+    height: 94px;
+    border-radius: 9999px;
+ }
+ 
+ .quest-title-text-style {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 500 30px Tilda Sans VF;
+    color: black;
+    text-align: center;
+ }
+ 
+ .quest-selection-container1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 372px;
+    height: 94px;
+    margin-top: -63px;
+    background: white;
+    border-radius: 9999px;
+ }
+ 
+ .quest-info-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 89px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1165px;
+ }
+ 
+ .quest-info-container2 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: flex-start;
+ }
+ 
+ .immersive-quest-heading {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 800 100px/100px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .adventure-emotion-text {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 300 30px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ 
+ .quest-selection-container1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: center;
+    width: 372px;
+    font: 500 64px/64px Tilda Sans VF;
+    height: 94px;
+    margin-top: -63px;
+    background: white;
+    border-radius: 9999px;
+ }
+
+/*  gfdgdgdgdgd*/
+ .button-sel {
+    display: block;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    text-decoration: none;
+    align-self: center;
+    width: 372px;
+    padding-top: 30px;
+    font: 500 30px/30px Tilda Sans VF;
+    height: 94px;
+    color: #000;
+    text-align: center;
+    background: white;
+    border-radius: 9999px;
+ }
+
+ button-sel:link, button-sel:visited {
+    color: #000;
+ }
+
+ .element-styles {
+    display: inline-block;
+    width: 1340px;
+    background: #2e2e2e;
+ }
+ 
+ .quest-list-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1340px;
+ }
+ 
+ .flex-row-with-gap {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: flex-start;
+ }
+ .show-club-container {
+    box-sizing: border-box;
+    background-repeat:no-repeat;
+    background-position: center center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 320px;
+    height: 634px;
+    background-size: 850px;
+    padding: 245px 20px;
+    padding-top: 0px;
+    padding-left: 90px;
+ }
+ 
+ .club-image-container {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 320px;
+    max-width: initial;
+    height: 634px;
+    border: none;
+    border-radius: 50px;
+    object-fit: cover;
+ }
+
+ /* Кнопка ДДР */
+ .sunrise-journey-container {
+    display: inline-block; /* Строчно-блочный элемент */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 50px; /* Скругляем уголки */
+    padding-top: 260px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image: url(/img/ddr.jpg);
+    font: 500 64px/64px Tilda Sans VF;
+    background-size: 350px;
+    text-align: center;
+    height: 634px;
+    width: 320px;
+    flex: 0 0 auto;
+ }
+ /* Кнопка 7Б */
+ .sunrise-text-display-style {
+    display: inline-block; /* Строчно-блочный элемент */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 50px; /* Скругляем уголки */
+    padding-top: 260px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image: url(/img/b7.jpg);
+    font: 500 64px/64px Tilda Sans VF;
+    background-size: 750px;
+    text-align: center;
+    height: 634px;
+    width: 320px;
+    flex: 0 0 auto;
+ }
+ .bloodshelter1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 320px;
+    height: 634px;
+    padding: 253px 20px;
+    padding-top: 0px;
+    padding-left: 90px;
+ }
+ 
+ .sunrise-7b {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 90px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 320px;
+    height: 634px;
+    padding: 202px 20px;
+    padding-top: 0px;
+    padding-left: 1px;
+ }
+/* Кнопка КП */
+ .bloodshelter {
+    display: inline-block; /* Строчно-блочный элемент */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 50px; /* Скругляем уголки */
+    padding-top: 260px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-image: url(/img/kp.jpg);
+    font: 500 64px/64px Tilda Sans VF;
+    background-size: 950px;
+    text-align: center;
+    height: 634px;
+    width: 320px;
+    flex: 0 0 auto;
+ }
+ 
+ .quest-list-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1340px;
+ }
+ 
+ .quest-title-style {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding-left: 160px;
+    padding-top: 20px;
+    margin: 0;
+    font: 700 64px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .flex-row-with-gap {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: flex-start;
+ }
+ 
+ .club-image-container {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 320px;
+    max-width: initial;
+    height: 634px;
+    border: none;
+    border-radius: 50px;
+    object-fit: cover;
+ }
+/* Кнопка Х  */
+ .show-club-title-style12 {
+    display: inline-block; /* Строчно-блочный элемент */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 50px; /* Скругляем уголки */
+    display: flex;
+    flex: 0 0 auto;
+    margin-left: 80px;
+    padding-top: 260px;
+    background-size: 850px;
+    text-align: center;
+    background-image: url(/img/x\ show.jpg);
+    font: 500 70px/64px Tilda Sans VF;
+    width: 320px;
+    height: 634px;
+ }
+ 
+/* 3 блок */
+element-styles {
+    display: inline-block;
+    padding-top: 30px;
+    margin-top: 30px;
+    background: #2e2e2e;
+ }
+ 
+ .team-quest-container {
+    box-sizing: border-box;
+    background-image: url(/img/3\ blok.png);
+    display: flex;
+    flex-direction: row;
+    gap: -224px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1340px;
+ }
+ 
+ .quest-description-container {
+    box-sizing: border-box;
+    display: flex;
+    justify-self: left;
+    flex-direction: column;
+    gap: 33px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 777px;
+ }
+ 
+ .quest-title-text-style11 {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    align-self: stretch;
+    font: 500 48px/58px Tilda Sans VF;
+    color: white;
+    text-align: left;
+ }
+ 
+ .quest-description-text-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 379px;
+    padding: 0;
+    margin: 0;
+    font: 300 32px/38px Tilda Sans VF;
+    color: #a7a7a7;
+    text-align: left;
+ }
+ 
+ .adventure-image-style {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 836px;
+    max-width: initial;
+    height: 800px;
+    border: none;
+    object-fit: cover;
+ }
+ 
+/* 4 блок */
+
+element-styles {
+    display: inline-block;
+    width: 1340px;
+    background: #2e2e2e;
+ }
+ 
+ .discount-offers-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    padding-top: 30px;
+    padding-left: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1340px;
+ }
+ 
+ .discount-offers-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1000px;
+ }
+ 
+ .big-header-text-style {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: 700 64px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .event-promo-container {
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+ }
+ 
+ .birthday-event-card1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    background-color: #595959;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 526px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+ }
+ 
+ .birthday-event-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+ }
+ 
+ .birthday-title-text-style1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+    font: 500 36px/43px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .birthday-title-text-style {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 900 150px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .quest-card-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    background-color: #c0c0c0;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 526px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+ }
+ 
+ .quest-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+ }
+ 
+ .quest-title-text-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 128px;
+    padding: 0;
+    margin: 0;
+    font: 500 36px/43px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .promo-message-text-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 55px;
+    padding: 0;
+    margin: 0;
+    font: 300 20px/24px Tilda Sans VF;
+    color: #a7a7a7;
+    text-align: left;
+ }
+ /* 5 блок */
+
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+    background: #2e2e2e;
+ }
+ 
+ .o-nas-card1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    background-color: #595959;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+    height: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+ }
+
+ .o-nas-card {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 320px;
+ }
+
+ .o-nas-text-style1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    align-self: stretch;
+    height: 85px;
+    padding: 0;
+    margin: 0;
+    font: 500 36px/43px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .o-nas-text-style {
+    flex: 0 0 auto;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    font: 900 65px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+ 
+ .o-nas-down-container {
+    margin-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    padding-top: 30px;
+    background-image: url(/img/5\ blok.png);
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-self: stretch;
+    justify-content: flex-start;
+ }
+
+ .o-nas-down-text {
+    flex: 0 0 auto;
+    align-self: stretch;
+    margin: 0;
+    font: 800 65px Tilda Sans VF;
+    color: white;
+    text-align: center;
+ }
+
+ /* Отзывы */
+
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+ }
+ 
+ .dark-theme-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 1440px;
+    padding-top: 34px;
+    padding-bottom: 0px;
+    background: #2e2e2e;
+ }
+ 
+ .testimonial-heading {
+    flex: 0 0 auto;
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+    font: 700 64px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .testimonial-container4 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+ }
+ 
+ .testimonial-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 61px;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+ 
+ .testimonial-container2 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 406px;
+    height: 482px;
+    padding: 13px 19px 5px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .flex-aligned-end-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+ }
+ 
+ .profile-image-circle {
+    box-sizing: border-box;
+    display: block;
+    width: 40px;
+    max-width: initial;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .guru-card {
+    flex: 0 0 auto;
+    margin-left: 8px;
+ }
+ 
+ .elite-title {
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .gurulabel {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    font: 400 15px Tilda Sans VF;
+    color: #c1c1c1;
+ }
+ 
+ .immersive-feedback-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px 14px;
+    margin-top: 10px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .quest-feedback-text-style {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 600 16px/19px Tilda Sans VF;
+    color: white;
+    text-align: left;
+ }
+ 
+ .review-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+ }
+ 
+ .bloodshelter-styled-heading {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 153px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: #c3c3c3;
+ }
+ 
+ .bloodshelter-styles {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 141px;
+    max-width: initial;
+    height: 20px;
+ }
+ 
+ .mystic-sanctuary-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 406px;
+    height: 461px;
+    padding: 15px 19px 5px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .adventure-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+ }
+ 
+ .profile-card1 {
+    flex: 0 0 auto;
+    margin-left: 9px;
+ }
+ 
+ .dark-box {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px;
+    margin-top: 7px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .immersive-review-container {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 406px;
+    height: 456px;
+    padding: 15px 19px 5px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .profile-card {
+    flex: 0 0 auto;
+    margin-left: 6px;
+ }
+ 
+ .dark-card {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px 3.25px;
+    margin-top: 7px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .flex-container-with-reviews {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 61px;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 1338px;
+    margin-top: 4px;
+ }
+ 
+ .visitor-review-card2 {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 406px;
+    padding-top: 26px;
+ }
+ 
+ .visitor-review-card1 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 19px 3px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .visitor-review-card {
+    margin-top: 30px;
+ }
+ 
+ .visitor-review-card1:first-child {
+    margin-top: 0px;
+ }
+ 
+ .visitor-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+ }
+ 
+ .visitor-title-text-style {
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: white;
+    white-space: pre-wrap;
+ }
+ 
+ .player-type-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    font: 400 15px Tilda Sans VF;
+    white-space: pre-wrap;
+ }
+ 
+ .customer-review-text-style {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 600 16px/19px Tilda Sans VF;
+    color: white;
+    text-align: left;
+    white-space: pre-wrap;
+ }
+ 
+ .venue-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+ }
+ 
+ .venue-identifier-text-display-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 202px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: #c3c3c3;
+    text-align: left;
+    white-space: pre-wrap;
+ }
+
+ .immersive-experience-container11 {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    align-items: center;
+    padding-top: 5px;
+
+ }
+
+ .immersive-experience-container {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 406px;
+    padding-top: 5px;
+    padding-bottom: 120px;
+ }
+ 
+ .testimonial-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px 19px 5px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .guru-card1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+ 
+ .guru-title-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 5.75px;
+    font: 400 15px Tilda Sans VF;
+    color: rgba(193, 193, 193, 0.8);
+ }
+ 
+ .cozy-vibes-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px 4.25px;
+    margin-top: 8.5px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .show-club-title-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 153px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: #c3c3c3;
+    text-align: left;
+ }
+ 
+ .atmospheric-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 19px 5px;
+    margin-top: 30px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .subtle-text-accent {
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    font: 400 15px Tilda Sans VF;
+    color: rgba(193, 193, 193, 0.76);
+ }
+ 
+ .dark-atmosphere-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px 5.25px;
+    margin-top: 10px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .flex-container-with-image-and-text-aligned {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+ }
+ 
+ .sunrise-survivor-text-style {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    width: 187px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    font: 600 20px Tilda Sans VF;
+    color: #c3c3c3;
+ }
+ 
+ .testimonial-card-container {
+    box-sizing: border-box;
+    flex: 1 1 0;
+    max-width: 406px;
+    padding-bottom: 93px;
+ }
+ 
+ .testimonial-container3 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 19px 5px;
+    background: #787878;
+    border-radius: 25px;
+ }
+ 
+ .testimonial-container3:first-child {
+    margin-top: 0px;
+ }
+ 
+ .testimonial-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 1.25px;
+    font: 400 15px Tilda Sans VF;
+    white-space: pre-wrap;
+ }
+ 
+ .dark-box1 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px 7px 4.25px;
+    margin-top: 6.5px;
+    background: #4b4b4b;
+    border-radius: 18px;
+ }
+ 
+ .unique-text-block {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font: 16px/19px Tilda Sans VF;
+    color: white;
+    text-align: left;
+    white-space: pre-wrap;
+ }
+ 
+ /* Нижняя шапка */
+
+ element-styles {
+    display: inline-block;
+    width: 1440px;
+ }
+ 
+ .dark-themed-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: flex-start;
+    background: #2e2e2e;
+ }
+ 
+ .horizontal-flex-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 81.57%;
+ }
+ 
+ .horror-show-copyright {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 600 30px/22.5px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .vertical-centered-layout {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 628px;
+    height: 51px;
+    margin-left: 24px;
+ }
+ 
+ .image-container-with-border {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 264px;
+    max-width: initial;
+    height: 51px;
+    border: none;
+    object-fit: cover;
+ }
+
+ .image-container-icon {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    border: none;
+    object-fit: cover;
+ }
+ 
+ .image-container {
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: 628px;
+    max-width: initial;
+    height: 50px;
+ }
+ 
+ .contact-info-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 18.43%;
+ }
+ 
+ .vibrant-text {
+    padding: 0;
+    margin: 0;
+    font: 600 30px/22.5px Tilda Sans VF;
+    color: white;
+ }
+ 
+ .container-bron {
+    height: 500px;
+ }
